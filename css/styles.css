@@ -199,6 +199,10 @@ img {
   gap: 24px;
 }
 
+.list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -206,7 +210,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 .text {
   font-size: 16px;
@@ -236,7 +239,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .item-container {
